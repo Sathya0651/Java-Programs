@@ -1,0 +1,11 @@
+public class Deccimal
+{
+    public static void main(String[] arg)
+    {
+        int dec = 25;
+        String binary = Integer.toBinaryString(dec);
+        String octal = Integer.toOctalString(dec);
+        System.out.println("Binary: "+binary);
+        System.out.println("Octal: "+octal);
+    }
+}
