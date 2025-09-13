@@ -1,0 +1,20 @@
+class AdditionParam
+{
+    int n1,n2,s;
+    AdditionParam(int a, int b)
+    {
+        n1 = a;
+        n2 = b;
+        s = n1+n2;
+    }
+    void display()
+    {
+        System.out.println("Parameterized Constructor: ");
+        System.out.println("Sum: "+ s);
+    }
+    public static void main(String[] arg)
+    {
+        AdditionParam obj = new AdditionParam(15,25);
+        obj.display();
+    }
+}
