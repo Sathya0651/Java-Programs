@@ -1,0 +1,16 @@
+public class ABC
+{
+    public static void main(String[] arg)
+    {
+        String s1 = "Saveetha@789";
+        String s2 = "Saveetha@789";
+        if(s1==s2)
+        {
+            System.out.println("Its a valid");
+        }
+        else
+        {
+            System.out.println("Its not valid");
+        }
+    }
+}
