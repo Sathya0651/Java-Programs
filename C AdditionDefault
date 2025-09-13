@@ -1,0 +1,20 @@
+class AdditionDefault
+{
+    int n1,n2,s;
+    AdditionDefault()
+    {
+        n1 = 10;
+        n2 = 20;
+        s = n1 + n2;
+    }
+    void display()
+    {
+        System.out.println("Default Constructor: ");
+        System.out.println("Sum = "+ s);
+    }
+    public static void main(String[] arg)
+    {
+        AdditionDefault obj = new AdditionDefault();
+        obj.display();
+    }
+}
