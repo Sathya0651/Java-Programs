@@ -1,0 +1,13 @@
+public class Multiplication
+{
+    public static void main(String[] arg)
+    {
+        int m = 5;
+        int n = 5;
+        for(int i=1;i<=n;i++)
+        {
+            int s = i*m;
+            System.out.println(m+ " x " + i + " = " + s);
+        }
+    }
+}
