@@ -1,0 +1,33 @@
+public class Multiplication
+{
+    public static void main(String[] arg)
+    {
+        int p = 70;
+        int j = 80;
+        int c = 88;
+        int t = p+j+c;
+        System.out.println("Total Marks: "+ t);
+        float per = t/4;
+        System.out.println("Percentage: "+ per);
+        if(per<50)
+        {
+            System.out.println("Fail");
+        }
+        else if(per<=60)
+        {
+            System.out.println("C grade");
+        }
+        else if(per<=75)
+        {
+            System.out.println("B grade");
+        }
+        else if(per<=89)
+        {
+            System.out.println("A grade");
+        }
+        else if(per>=90)
+        {
+            System.out.println("S grade");
+        }
+    }
+}
