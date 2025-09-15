@@ -1,0 +1,12 @@
+public class TotalAmount
+{
+    public static void main(String[] arg)
+    {
+        int d1 = 500, n1 = 4;
+        int d2 = 100, n2 = 20;
+        int d3 = 200, n3 = 32;
+        int d4 = 2000, n4 = 1;
+        int total = (d1*n1)+(d2*n2)+(d3*n3)+(d4*n4);
+        System.out.print("The total amount in ATM is: "+ total);
+    }
+}
