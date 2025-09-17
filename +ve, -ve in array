@@ -1,0 +1,31 @@
+class R192210651 
+{
+    public static void main(String[] args) 
+    {
+        int[] n = {10, -10, 20, -20, 30, -30, 40, -40, -1, 1, 50, -50};
+        System.out.println("Positive numbers up to:");
+        for (int m : n) 
+        {
+            if (m == 0) 
+            {
+                break;
+            }
+            if (m > 0) 
+            {
+                System.out.print(m + " ");
+            }
+        }
+        System.out.println("\nNegative numbers up to:");
+        for (int m : n) 
+        {
+            if (m == 0) 
+            {
+                break;
+            }
+            if (m < 0) 
+            {
+                System.out.print(m + " ");
+            }
+        }
+    }
+}
