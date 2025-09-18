@@ -1,0 +1,26 @@
+public class R192210651
+{
+    public static void main(String[] arg)
+    {
+        int [] n = {10, -5, 20, -7, 30, -1, 40, -50};
+        int SP = 0;
+        int SN = 0;
+        for(int i = 0; i < n.length; i++)
+        {
+            if(n[i] == -1)
+            {
+                break;
+            }
+            if(n[i]<0)
+            {
+                SN = SN + n[i];
+            }
+            else if(n[i]>0)
+            {
+                SP = SP + n[i];
+            }
+        }
+        System.out.println("Sum of Positive: "+ SP);
+        System.out.println("Sum of Negative: "+ SN);
+    }
+}
